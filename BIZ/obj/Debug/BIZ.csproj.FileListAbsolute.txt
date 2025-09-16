@@ -1,0 +1,9 @@
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\bin\Debug\BIZ.dll
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\bin\Debug\BIZ.pdb
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\bin\Debug\DAL.dll
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\bin\Debug\DAL.pdb
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\obj\Debug\BIZ.csproj.Up2Date
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\obj\Debug\BIZ.dll
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\20001240\Documents\OOP_CA2\BIZ\obj\Debug\BIZ.pdb

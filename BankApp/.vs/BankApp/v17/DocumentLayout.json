@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BankApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F867C7-36AB-4FDE-919F-CC8E7F188393}|..\\DAL\\DAL.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F867C7-36AB-4FDE-919F-CC8E7F188393}|..\\DAL\\DAL.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\dal\\transactiondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F867C7-36AB-4FDE-919F-CC8E7F188393}|..\\DAL\\DAL.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\dal\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F867C7-36AB-4FDE-919F-CC8E7F188393}|..\\DAL\\DAL.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\dal\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5913182-A9C6-435F-A3C0-5C7DC7CBCB7E}|..\\BIZ\\BIZ.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\biz\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5913182-A9C6-435F-A3C0-5C7DC7CBCB7E}|..\\BIZ\\BIZ.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\biz\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5913182-A9C6-435F-A3C0-5C7DC7CBCB7E}|..\\BIZ\\BIZ.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\biz\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5913182-A9C6-435F-A3C0-5C7DC7CBCB7E}|..\\BIZ\\BIZ.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\biz\\county.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5913182-A9C6-435F-A3C0-5C7DC7CBCB7E}|..\\BIZ\\BIZ.csproj|\\\\dbs-fs.student.dbs.ie\\ctx.xa.profiles.data.new\\20001240\\documents\\oop_ca2\\biz\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\DAL\\UserDAL.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\UserDAL.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\DAL\\UserDAL.cs",
+              "RelativeToolTip": "..\\DAL\\UserDAL.cs",
+              "ViewState": "AgIAAEwAAAAANTMzM7MTwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:37:55.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionDAL.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\DAL\\TransactionDAL.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\TransactionDAL.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\DAL\\TransactionDAL.cs",
+              "RelativeToolTip": "..\\DAL\\TransactionDAL.cs",
+              "ViewState": "AgIAAKwAAAAAwMzMzMwKwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:37:51.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAO.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\DAL\\DAO.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DAO.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\DAL\\DAO.cs",
+              "RelativeToolTip": "..\\DAL\\DAO.cs",
+              "ViewState": "AgIAAAwAAAAAOjMzMzPzvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:37:48.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountDAL.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\DAL\\AccountDAL.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\AccountDAL.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\DAL\\AccountDAL.cs",
+              "RelativeToolTip": "..\\DAL\\AccountDAL.cs",
+              "ViewState": "AgIAAHsAAAAA+P////8CwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:37:39.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\TransactionService.cs",
+              "RelativeDocumentMoniker": "..\\BIZ\\TransactionService.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\TransactionService.cs",
+              "RelativeToolTip": "..\\BIZ\\TransactionService.cs",
+              "ViewState": "AgIAADgBAAAANjMzM3MiwDAAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:35:55.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\StaffService.cs",
+              "RelativeDocumentMoniker": "..\\BIZ\\StaffService.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\StaffService.cs",
+              "RelativeToolTip": "..\\BIZ\\StaffService.cs",
+              "ViewState": "AgIAAFMAAABAmZmZmdkwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:35:47.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "..\\BIZ\\PasswordHelper.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\PasswordHelper.cs",
+              "RelativeToolTip": "..\\BIZ\\PasswordHelper.cs",
+              "ViewState": "AgIAACUAAABAmZmZmZkkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:35:43.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "County.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\County.cs",
+              "RelativeDocumentMoniker": "..\\BIZ\\County.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\County.cs",
+              "RelativeToolTip": "..\\BIZ\\County.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:35:42.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\BIZ\\AuthService.cs",
+              "ToolTip": "\\\\DBS-FS.student.dbs.ie\\CTX.XA.Profiles.Data.New\\20001240\\Documents\\OOP_CA2\\BIZ\\AuthService.cs",
+              "RelativeToolTip": "..\\BIZ\\AuthService.cs",
+              "ViewState": "AgIAACQAAAAAaGZmZmYSwCUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:35:19.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

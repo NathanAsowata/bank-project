@@ -1,0 +1,108 @@
+﻿<Page x:Class="BankApp.Pages.NewAccountPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:BankApp.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="650" d:DesignWidth="800"
+      Title="Create New Account">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Background="White">
+        <Grid Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Title -->
+                <RowDefinition Height="Auto"/>
+                <!-- First Name -->
+                <RowDefinition Height="Auto"/>
+                <!-- Surname -->
+                <RowDefinition Height="Auto"/>
+                <!-- Email -->
+                <RowDefinition Height="Auto"/>
+                <!-- Phone -->
+                <RowDefinition Height="Auto"/>
+                <!-- Addr 1 -->
+                <RowDefinition Height="Auto"/>
+                <!-- Addr 2 -->
+                <RowDefinition Height="Auto"/>
+                <!-- City -->
+                <RowDefinition Height="Auto"/>
+                <!-- County -->
+                <RowDefinition Height="Auto"/>
+                <!-- Type -->
+                <RowDefinition Height="Auto"/>
+                <!-- Sort Code -->
+                <RowDefinition Height="Auto"/>
+                <!-- Balance -->
+                <RowDefinition Height="Auto"/>
+                <!-- Overdraft -->
+                <RowDefinition Height="Auto"/>
+                <!-- Required Text -->
+                <RowDefinition Height="Auto"/>
+                <!-- Create Button -->
+                <RowDefinition Height="*"/>
+                <!-- Spacer -->
+                <RowDefinition Height="Auto"/>
+                <!-- Back Button -->
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Create New Bank Account" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,20"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Content="First Name:*" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="1" Grid.Column="1" x:Name="TxtFirstName" MaxLength="100"/>
+
+            <Label Grid.Row="2" Grid.Column="0" Content="Surname:*" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="2" Grid.Column="1" x:Name="TxtSurname" MaxLength="100"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Content="Email:" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="3" Grid.Column="1" x:Name="TxtEmail" MaxLength="100"/>
+
+            <Label Grid.Row="4" Grid.Column="0" Content="Phone:" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="4" Grid.Column="1" x:Name="TxtPhone" MaxLength="50"/>
+
+            <Label Grid.Row="5" Grid.Column="0" Content="Address Line 1:" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="5" Grid.Column="1" x:Name="TxtAddress1" MaxLength="150"/>
+
+            <Label Grid.Row="6" Grid.Column="0" Content="Address Line 2:" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="6" Grid.Column="1" x:Name="TxtAddress2" MaxLength="150"/>
+
+            <Label Grid.Row="7" Grid.Column="0" Content="City:" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="7" Grid.Column="1" x:Name="TxtCity" MaxLength="100"/>
+
+            <Label Grid.Row="8" Grid.Column="0" Content="County:*" VerticalAlignment="Center"/>
+            <ComboBox Grid.Row="8" Grid.Column="1" x:Name="CmbCounty"/>
+
+            <Label Grid.Row="9" Grid.Column="0" Content="Account Type:*" VerticalAlignment="Center"/>
+            <StackPanel Grid.Row="9" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                <RadioButton x:Name="RbCurrent" Content="Current" IsChecked="True" Checked="AccountType_Changed" Unchecked="AccountType_Changed"/>
+                <RadioButton x:Name="RbSavings" Content="Savings" Margin="10,0,0,0" Checked="AccountType_Changed" Unchecked="AccountType_Changed"/>
+            </StackPanel>
+
+            <Label Grid.Row="10" Grid.Column="0" Content="Sort Code:" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="10" Grid.Column="1" x:Name="TxtSortCode" IsReadOnly="True" Background="LightGray"/>
+
+            <Label Grid.Row="11" Grid.Column="0" Content="Initial Balance:*" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="11" Grid.Column="1" x:Name="TxtInitialBalance"/>
+
+            <Label Grid.Row="12" Grid.Column="0" Content="Overdraft Limit:" VerticalAlignment="Center" x:Name="LblOverdraft"/>
+            <TextBox Grid.Row="12" Grid.Column="1" x:Name="TxtOverdraftLimit" Text="0.00"/>
+
+            <TextBlock Grid.Row="13" Grid.Column="1" Text="* Required field" FontStyle="Italic" Foreground="Gray" Margin="5"/>
+
+            <Button Grid.Row="14" Grid.Column="1" Content="Create Account" Click="CreateAccount_Click" HorizontalAlignment="Left" Margin="5,20,0,0"/>
+
+            <!-- Back Button -->
+            <Button Grid.Row="16" Grid.Column="0"
+                    Content="Back to accounts dashboard"
+                    Click="BackToDashboard_Click"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                    Margin="5,20,0,5"/>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

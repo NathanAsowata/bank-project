@@ -1,0 +1,91 @@
+﻿<Page x:Class="BankApp.Pages.ManageStaffPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:BankApp.Pages"
+      mc:Ignorable="d"
+       d:DesignHeight="700" d:DesignWidth="900"
+      Title="Manage Staff Users"
+       Loaded="Page_Loaded">
+    <Grid Margin="10" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Title -->
+            <RowDefinition Height="*"/>
+            <!-- Staff Grid -->
+            <RowDefinition Height="Auto"/>
+            <!-- Action Buttons -->
+            <RowDefinition Height="Auto"/>
+            <!-- New Staff Form -->
+            <RowDefinition Height="Auto"/>
+            <!-- Back Button -->
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Manage Staff Users" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,10"/>
+
+        <DataGrid Grid.Row="1" x:Name="StaffGrid" ItemsSource="{Binding StaffUsers}" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding StaffID}" Width="60"/>
+                <DataGridTextColumn Header="Username" Binding="{Binding Username}" Width="*"/>
+                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="*"/>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="*"/>
+                <DataGridTextColumn Header="Role" Binding="{Binding Role}" Width="100"/>
+                <DataGridCheckBoxColumn Header="Suspended" Binding="{Binding IsSuspended}" Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,10">
+            <Button Content="Suspend Selected" Click="Suspend_Click" Background="OrangeRed"/>
+            <Button Content="Reactivate Selected" Click="Reactivate_Click" Background="Green"/>
+        </StackPanel>
+
+        <GroupBox Grid.Row="3" Header="Create New Staff User" Padding="10" Margin="0,10,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Content="Username:*"/>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="TxtNewUsername" Margin="0,0,10,0"/>
+
+                <Label Grid.Row="0" Grid.Column="2" Content="Password:*"/>
+                <PasswordBox Grid.Row="0" Grid.Column="3" x:Name="TxtNewPassword" Margin="0,0,10,0"/>
+
+                <Label Grid.Row="1" Grid.Column="0" Content="First Name:*"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="TxtNewFirstName" Margin="0,0,10,0"/>
+
+                <Label Grid.Row="1" Grid.Column="2" Content="Last Name:"/>
+                <TextBox Grid.Row="1" Grid.Column="3" x:Name="TxtNewLastName" Margin="0,0,10,0"/>
+
+                <Label Grid.Row="0" Grid.Column="4" Content="Role:*"/>
+                <ComboBox Grid.Row="0" Grid.Column="5" x:Name="CmbNewRole" Margin="0,0,10,0">
+                    <ComboBoxItem Content="Teller"/>
+                    <ComboBoxItem Content="Manager"/>
+                    <ComboBoxItem Content="Admin"/>
+                </ComboBox>
+
+                <Button Grid.Row="2" Grid.Column="5" Content="Create User" Click="CreateUser_Click" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+
+            </Grid>
+        </GroupBox>
+
+        <!-- ADDED Back Button -->
+        <Button Grid.Row="4" Grid.Column="0"
+                Content="Back to accounts dashboard"
+                Click="BackToDashboard_Click"
+                HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                Margin="5,20,0,5"/>
+
+    </Grid>
+</Page>

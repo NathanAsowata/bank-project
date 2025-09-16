@@ -1,0 +1,58 @@
+﻿<Page x:Class="BankApp.Pages.ApproveTransactionsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:BankApp.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="600" d:DesignWidth="950"
+      Title="Approve Transactions"
+      Loaded="Page_Loaded">
+    <Grid Margin="10" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Title -->
+            <RowDefinition Height="*"/>
+            <!-- Pending Grid -->
+            <RowDefinition Height="Auto"/>
+            <!-- Action Buttons (Right Aligned) -->
+            <RowDefinition Height="Auto"/>
+            <!-- Back Button (Bottom Left) -->
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Transactions Pending Approval" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,10"/>
+
+        <DataGrid Grid.Row="1" x:Name="PendingTransactionsGrid" ItemsSource="{Binding PendingTransactions}" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single">
+            <DataGrid.Resources>
+                <Style x:Key="RightAligned" TargetType="TextBlock">
+                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding TransactionID}" Width="60"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding TransactionDate, StringFormat='g'}" Width="140"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding TransactionType}" Width="100"/>
+                <DataGridTextColumn Header="Amount" Binding="{Binding Amount, StringFormat=C, ConverterCulture='en-IE'}" Width="120" ElementStyle="{StaticResource RightAligned}"/>
+                <DataGridTextColumn Header="Source Acc" Binding="{Binding SourceAccountID, TargetNullValue='NULL'}" Width="90"/>
+                <DataGridTextColumn Header="Source Name" Binding="{Binding SourceAccountName}" Width="*"/>
+                <DataGridTextColumn Header="Dest Acc" Binding="{Binding DestinationAccountID, TargetNullValue='NULL'}" Width="90"/>
+                <DataGridTextColumn Header="Dest Name" Binding="{Binding DestinationAccountName}" Width="*"/>
+                <DataGridTextColumn Header="Ref Number" Binding="{Binding ReferenceNumber}" Width="*"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button Content="Refresh List" Click="Refresh_Click" Margin="0,0,20,0" Background="Gray"/>
+            <Button x:Name="BtnApprove" Content="Approve Selected" Click="BtnApprove_Click" Background="Green"/>
+            <Button x:Name="BtnReject" Content="Reject Selected" Click="BtnReject_Click" Background="OrangeRed"/>
+        </StackPanel>
+
+        <Button Grid.Row="3" Grid.Column="0"
+                Content="Back to accounts dashboard"
+                Click="BackToDashboard_Click"
+                HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                Margin="5,20,0,5"/>
+
+    </Grid>
+</Page>

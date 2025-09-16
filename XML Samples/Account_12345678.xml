@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Account xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AccountID>12345678</AccountID>
+  <FirstName>Matt</FirstName>
+  <Surname>Philips</Surname>
+  <Email>matt@phil.co</Email>
+  <Phone>0980636483</Phone>
+  <AddressLine1>24, Stealth Road</AddressLine1>
+  <AddressLine2>Dublin. Ireland</AddressLine2>
+  <City>Dublin</City>
+  <County>Dublin</County>
+  <AccountType>Current</AccountType>
+  <SortCode>101010</SortCode>
+  <Balance>51982.77</Balance>
+  <OverdraftLimit>1200.00</OverdraftLimit>
+  <DateCreated>2025-04-09T14:34:06.407</DateCreated>
+</Account>
