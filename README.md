@@ -1,6 +1,6 @@
 
 
-# **README: BankApp (Academic Project) - A WPF Desktop Banking Application**
+# **README: BankApp (Academic Project)**
 
 This document provides a technical overview of the BankApp project, a multi-user desktop banking application built with C# and WPF.
 
